@@ -1,0 +1,313 @@
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-nav li {
+    padding: 7px 22px;
+    position: relative;
+}
+.navbar-nav li a {
+    color: rgb(229, 230, 233);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.parent a:hover {
+    color: rgb(174, 157, 47);
+}
+.line:before, .active:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 7px;
+    background-color: rgb(174, 157, 47);
+}
+li.parent ul {
+    position: absolute;
+    top:55px;
+    left:0;
+    z-index: 9;
+    display: none;
+    background-color: rgb(174, 157, 47);
+    margin-left:0;
+    padding-left:0;
+    width: 100%;
+}
+li.parent ul li {
+    list-style: none;
+    padding: 4px;
+    margin:0 0 0 0px;
+}
+li.parent ul li a {
+    color: #fff;
+    font-size: 15px;
+}
+li.parent ul li a:hover {
+    color: rgb(23, 78, 79);
+}
+.arrow-nav {
+    text-align: center;
+}
+
+.navbar-nav li {
+    vertical-align: bottom;
+}
+.navbar-toggle {
+    background-color: #c9e2b3;
+}
+
+.navbar {
+    background-color: rgb(0, 71, 80);
+    border-radius: 0;
+    min-height: 0;
+    margin-bottom: 0;
+}
+.navbar .custom-logo-row {
+    padding: 20px 0;
+}
+.navbar .custom-logo-alignment {
+    padding-top: 30px;  
+}
+.navbar .custom-logo {
+    float: right;
+    width: 100px;
+}
+.navbar h1 {
+    color: rgb(229, 230, 233);
+    padding: 20px 0 0 20px;
+    font-family: serif;
+}
+
+.content-wrapper {
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.custom-academy-view {
+  background: url(../img/academy_view.png) no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 776px;
+  margin-top: 15px;
+     position: relative;
+}
+
+.custom-news-widget {
+    position: absolute;
+    top: 39%;
+}
+
+.custom-widget-heading {
+    background-color: rgba(174, 157, 47, 1);
+    color: rgb(1, 74, 78);
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin-bottom: 3px;
+}
+
+.custom-widget-news {
+    margin-bottom: 3px;
+    background-color: rgba(174, 157, 47, 0.6);
+    color: rgb(47, 81, 74);
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.custom-main-content h2 {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 0;
+    color: rgb(1, 73, 84);
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 48%, rgba(214,206,151,1) 48%, rgba(214,206,151,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(48%, rgba(255,255,255,1)), color-stop(48%, rgba(214,206,151,1)), color-stop(100%, rgba(214,206,151,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 48%, rgba(214,206,151,1) 48%, rgba(214,206,151,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 48%, rgba(214,206,151,1) 48%, rgba(214,206,151,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 48%, rgba(214,206,151,1) 48%, rgba(214,206,151,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 48%, rgba(214,206,151,1) 48%, rgba(214,206,151,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6ce97', GradientType=0 );
+}
+
+article {
+    margin-bottom: 15px;
+    height: 105px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+article p {
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    color: rgb(0, 71, 80);
+}
+
+article a {
+    font-size: 18px;
+    color: rgb(174, 157, 47);
+}
+
+.custom-video {
+    min-height: 210px;
+    background-color: rgb(188, 189, 192);
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.custom-video h4 {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    padding: 8px 50px 20px 15px;
+    background-color: rgb(0, 71, 80);
+    color: rgb(206, 204, 201);
+    margin: 0;
+    font-size: 16px;
+}
+
+aside {
+    margin-top: 25px;
+}
+
+.custom-bottom-navbar p {
+    padding-top: 30px;
+}
+.custom-bottom-navbar div {
+    padding-top: 16px;
+}
+.custom-bottom-navbar p a{
+    font-size: 16px;
+    color: rgb(174, 157, 47);
+    font-weight: 600;
+}
+
+.custom-footer{
+    background-color: rgb(0,71,80);
+    padding: 10px 0 0 0;
+}
+
+.custom-footer p {
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+.custom-footer a {
+    color: #c4e3f3;
+}
+.copy-logo-design {
+    background-color: #fff;
+    margin-bottom: 0;
+}
+.copy-logo-design img {
+    padding: 20px 0;
+}
+.copy {
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Page 2 styles begins*/
+
+.content-wrapper {
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.custom-caderia-row {
+    margin-bottom: 25px;
+}
+
+.custom-caderia img {
+    width: 113px;
+    height: 151px;
+    display: inline-block;
+    margin: 0 15px 0 8px;
+    vertical-align: top;
+}
+.custom-inline {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 210px;
+}
+.custom-caderia p:first-of-type {
+        margin-top: 14px;
+        margin-bottom: 13px;
+        font-size: 16px;
+        font-weight: 600;
+}
+
+.custom-caderia p:first-of-type + p {
+        font-weight: 600;
+}
+.custom-caderia p {
+    color: rgb(1, 73, 84);
+}
+
+.custom-caderia .custom-underline {
+    height: 3px;
+    background: rgb(214,206,151);
+    margin-top: 5px;
+}
+
+.custom-caderia .clearfix {
+    margin-bottom: 9px;
+}
+
+.content-wrapper h5 {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px 0;
+    color: rgb(1, 73, 84);
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 52%, rgba(214,206,151,1) 52%, rgba(214,206,151,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(52%, rgba(255,255,255,1)), color-stop(52%, rgba(214,206,151,1)), color-stop(100%, rgba(214,206,151,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 52%, rgba(214,206,151,1) 52%, rgba(214,206,151,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 52%, rgba(214,206,151,1) 52%, rgba(214,206,151,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 52%, rgba(214,206,151,1) 52%, rgba(214,206,151,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 52%, rgba(214,206,151,1) 52%, rgba(214,206,151,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6ce97', GradientType=0 );
+}
+
+
+.custom-go-to-top {
+    margin-top: 55px;
+}
+
+.custom-go-to-top a {
+    text-decoration: none;
+    color: rgb(174, 157, 47);
+}
+
+.custom-go-to-top img {
+    vertical-align: initial;
+    margin-left: 10px;
+}
+
+
+.custom-go-to-top + hr {
+    border-top: 5px solid rgb(174, 157, 47);
+    margin-top: 3px;
+}
+/*Page 2 styles ends*/
