@@ -22,7 +22,7 @@
 .parent a:hover {
     color: rgb(174, 157, 47);
 }
-.line:before, .active:before {
+.line:before, .active:before, .current:before {
     content: '';
     position: absolute;
     bottom: -10px;
@@ -139,6 +139,18 @@ li.parent ul li a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6ce97', GradientType=0 );
 }
 
+.custom-main-content h3, .custom-main-content p {
+    color: rgb(1, 73, 84);
+}
+
+.custom-main-content h3 {
+    font-weight: 600;
+}
+
+.custom-main-content p span {
+   margin-left: 20px;
+}
+
 article {
     margin-bottom: 15px;
     height: 105px;
@@ -229,11 +241,6 @@ aside {
 
 
 /*Page 2 styles begins*/
-
-.content-wrapper {
-    width: 90%;
-    margin: 50px auto 0;
-}
 
 .custom-caderia-row {
     margin-bottom: 25px;
