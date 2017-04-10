@@ -1,4 +1,11 @@
+@font-face {
+    font-family: NewsGothicBT-Roman;
+    src: url(../fonts/NewsGothicBT-Roman.otf);
+}
 
+body {
+    font-family: NewsGothicBT-Roman, sans-serif;
+}
 .nav>li>a:hover, .nav>li>a:focus {
     background-color: transparent;
     border: none;
@@ -15,7 +22,7 @@
 .navbar-nav li a {
     color: rgb(229, 230, 233);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 17px;
     padding: 0;
     margin: 0;
 }
@@ -84,7 +91,7 @@ li.parent ul li a:hover {
 .navbar h1 {
     color: rgb(229, 230, 233);
     padding: 20px 0 0 20px;
-    font-family: serif;
+    font-family: NewsGothicBT-Roman, serif;
 }
 
 .content-wrapper {
@@ -125,7 +132,7 @@ li.parent ul li a:hover {
     font-size: 14px;
 }
 .custom-main-content h2 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     padding: 10px 0;
     color: rgb(1, 73, 84);
@@ -318,3 +325,30 @@ aside {
     margin-top: 3px;
 }
 /*Page 2 styles ends*/
+
+/* Page 3 styles start */
+
+.custom-caderia-name {
+    margin-bottom: 35px;
+}
+
+.custom-caderia-name h3 {
+    font-size: 27px;
+    font-weight: 800;
+}
+.custom-caderia-name p {
+    font-size: 17px;
+}
+.custom-caderia-content p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.custom-caderia-card img {
+    margin-bottom: 40px;
+}
+.custom-caderia-card p {
+    font-size: 17px;
+    color: rgb(174, 157, 47);
+    padding: 5px 0;
+}
