@@ -364,7 +364,7 @@ hr {
 .custom-footer{
     background-color: rgb(0,71,80);
     padding: 10px 0 0 0;
-    margin-top: 50px;
+    margin-top: 84px;
 }
 
 
@@ -409,4 +409,83 @@ hr {
 .custom-devider-fluid-thick {
     height: 20px;
     background-color: rgb(214, 206, 151);
+}
+
+.custom-caderia-content h6, .custom-chrono {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(1, 73, 84);
+    margin-bottom: 20px; /* page 6 */
+}
+
+.custom-chrono {
+    font-weight: 400;
+}
+
+.custom-devider-fixed-thin {
+    display: inline-block;
+    margin-bottom: 10px;custom-devider-fluid-thick
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 1%, #ffffff 91%, #d6ce97 93%, #d6ce97 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 1%,#ffffff 91%,#d6ce97 93%,#d6ce97 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 1%,#ffffff 91%,#d6ce97 93%,#d6ce97 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6ce97',GradientType=0 ); /* IE6-9 */ 
+}
+
+.custom-devider-fluid-thin {
+    height: 2px;
+    margin: 4px 0 25px 0;
+    background-color: rgb(146, 141, 118);
+}
+
+.custom-devider-fluid-thin:last-of-type {
+    background-color: rgb(174, 157, 47);
+}
+
+/* footer fix*/
+
+.custom-footer .content-wrapper {
+    margin: 0 auto;
+}
+
+
+/* page 7 */
+.custom-sidebar-menu ul {
+    list-style: none;
+}
+
+.custom-sidebar-menu ul li {
+    margin: 25px 0;
+}
+
+.custom-sidebar-menu ul li:first-of-type {
+    margin-top: 0;
+}
+
+.custom-sidebar-menu ul li a {
+    color: rgb(174, 157, 47);
+    text-decoration: none;
+    display: list-item;
+    font-size: 17px;
+}
+
+.custom-sidebar-menu ul li a:hover {
+    background-color: rgb(214, 206, 151);
+}
+
+.custom-noticia .custom-chrono {
+    padding-right: 20px;
+}
+
+.custom-noticia {
+    margin-bottom: 50px;
+}
+
+.custom-devider-fluid-bold {
+    height: 6px;
+    background-color: rgb(174, 157, 47);
+}
+
+.custom-noticia-empty-space {
+    height: 450px;
 }
