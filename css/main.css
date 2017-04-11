@@ -348,6 +348,7 @@ hr {
 
 .custom-caderia-card img {
     margin-bottom: 40px;
+    max-width: 100%;
 }
 .custom-caderia-card p {
     font-size: 17px;

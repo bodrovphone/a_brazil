@@ -3,16 +3,14 @@
         max-width: 46%;
     }
 }
+@media (max-width: 1189px) {
+
+}
 @media (max-width: 1140px) {
     .wrapper-menu-bottom ul {
         padding-left: 20px;
     }
 }
-/*@media (max-width: 1117px) {
-    .custom-inline {
-        max-width: 145px;
-    }
-}*/
 @media (max-width: 1057px) {
     .custom-go-to-top img {
         margin-left: 0;
@@ -22,7 +20,7 @@
 @media (max-width: 1037px) {
     .content-wrapper {
         width: 95%;
-        margin: 0;
+        margin: 0 auto;
     }
 }
 @media (max-width: 957px) {

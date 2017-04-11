@@ -11,9 +11,9 @@ $(document).ready(function(){
     );
 
     $('.parent').on('click', function(e){
-        e.preventDefault();
         $(this).toggleClass('active');
         $(this).find('ul').slideToggle();
+        
     });
 
     $("#back-to-top").click(function (e) {
