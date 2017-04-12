@@ -60,7 +60,12 @@
         height: 0;
         background-color: transparent;
     }
-
+    .current:before {
+        background-color: inherit;
+    }
+    li.parent ul li a:hover {
+        color: rgb(174, 157, 47);
+    }
     li.parent ul {
         background-color: transparent;
         position: inherit;
