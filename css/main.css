@@ -382,9 +382,12 @@ hr {
 
 .header-text {
     color: rgb(174, 157, 47);
+    font-weight: bold;
     font-size: 16px;
     margin-bottom: 17px;
-    font-weight: bold;
+}
+.wrapper-menu-bottom ul li.custom-social {
+    margin-top: 0;
 }
 .social-btn {
     margin-top: -10px;
