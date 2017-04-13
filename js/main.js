@@ -19,11 +19,12 @@ $(document).ready(function(){
         e.preventDefault();
         $("html, body").animate({scrollTop: 0}, 1000);
     });
-    
+    var html_current_link = $('.current');
     $('.custom-cse-toggle img').on('click', function(e){
         e.preventDefault();
         $('.custom-cse').toggleClass('cse-display');
         if($('.cse-display').size() > 0) $(this).attr('src', 'img/cancel_search.svg');
         else $(this).attr('src', 'img/search.svg'); 
+        html_current_link.toggleClass('current');
     });
 });
