@@ -75,4 +75,16 @@
     .navbar-nav {
         margin: 0;
     }
+    .gsc-results .gsc-cursor-box .gsc-cursor-page {
+        padding: 0 4px;
+    }
+    .custom-cse {
+        width: 70%;
+    }
+}
+
+@media (max-width: 418px) {
+.wrapper-menu-bottom div:last-of-type {
+    width: 30%;
+}
 }

@@ -494,3 +494,40 @@ hr {
 .custom-noticia-empty-space {
     height: 450px;
 }
+
+.custom-cse {
+    position: absolute;
+    z-index: 4;
+    right: 74px;
+    bottom: 13px;
+    height: 35px;
+    background-color: rgb(95, 95, 95);
+    letter-spacing: normal;
+    width: 40%;
+    display: none;
+}
+
+.custom-cse input.gsc-search-button-v2 {
+    min-width: 67px;
+    width: inherit;
+    height: inherit;
+}
+.cse-display {
+    display: block;
+}
+
+#gsc-i-id1 {
+    margin-top: -6px !important;
+}
+
+.gsc-control-cse {
+    background-color: rgb(0, 71, 80) !important;
+    border: none !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+    padding: 0 5px;
+}
+.custom-cse .gsc-control-cse-pt_PT {
+    padding-bottom: 0;
+}
